@@ -1,0 +1,37 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-17b732d59d8-1567054666609f19": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "localhost",
+			"save-password": true,
+			"read-only": false,
+			"virtual-model-id": "mysql8-17b72fb1393-51845e450dc63264",
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
+				"home": "C:\\Program Files\\MySQL\\MySQL Router 8.0",
+				"type": "dev",
+				"properties": {
+					"connectTimeout": "20000",
+					"allowPublicKeyRetrieval": "TRUE"
+				},
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
