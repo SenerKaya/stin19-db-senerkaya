@@ -147,7 +147,6 @@ CREATE TABLE ex15.kurskontrolle(
    CONSTRAINT kurskontrolle_FK_kurse FOREIGN KEY (knr) REFERENCES ex15.kurse(knr)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 collate=utf8mb4_unicode_ci;
 
-
 INSERT INTO  ex15.kurskontrolle(fnr,knr) VALUES
 (1,123),
 (2,123),
@@ -180,8 +179,7 @@ INSERT INTO  ex15.kurskontrolle(fnr,knr) VALUES
 
 
 
-
-
+/* View erstellen */
 CREATE OR REPLACE VIEW ex15.all_courses
 AS select
     k.knr,
