@@ -5,4 +5,4 @@ Das Projekt ist noch in der Bauphase.
 
 ## Task 09 Kursbesuche
 ![Kurse](Bilder/kurse.png)  
-![link zu Task 09 Kursbesuche](Scripts/Task-09-Kursbesuche.sql)
+[link zu Task 09 Kursbesuche](Scripts/Task-09-Kursbesuche.sql)
