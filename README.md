@@ -10,7 +10,6 @@ Es soll erfasst werden, welche Angestellten welche Kurse wann besucht haben und 
 [link zur Aufgabe 09 Kursverwaltung](Aufgaben/Task_09_Kursverwaltung.md)  
   
   
-## Task 10 Fahrrad Verleih
+## Task 12 Fahrrad Vermietung
 ![Kurse](Bilder/fahrrad.jpg)  
-[link zu Task 09 Kursbesuche](Scripts/Task-09-Kursbesuche.sql)  
-[link zu Task 09 Kursbesuche](stin19-db-senerkaya/Scripts/Task-09-Kursbesuche.sql)  
+[link zu Aufgabe 12 Fahrrad Vermietung](Aufgaben/Task_12_Fahrrad_Vermietung.md)  
