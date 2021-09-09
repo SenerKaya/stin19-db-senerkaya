@@ -13,3 +13,4 @@ Es soll erfasst werden, welche Angestellten welche Kurse wann besucht haben und 
 ## Task 10 Fahrrad Verleih
 ![Kurse](Bilder/fahrrad.jpg)  
 [link zu Task 09 Kursbesuche](Scripts/Task-09-Kursbesuche.sql)  
+[link zu Task 09 Kursbesuche](stin19-db-senerkaya/Scripts/Task-09-Kursbesuche.sql)  
