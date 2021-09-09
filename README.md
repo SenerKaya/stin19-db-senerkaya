@@ -11,5 +11,5 @@ Es soll erfasst werden, welche Angestellten welche Kurse wann besucht haben und 
   
   
 ## Task 12 Fahrrad Vermietung
-![Kurse](Bilder/fahrrad.jpg)  
+
 [link zu Aufgabe 12 Fahrrad Vermietung](Aufgaben/Task_12_Fahrrad_Vermietung.md)  

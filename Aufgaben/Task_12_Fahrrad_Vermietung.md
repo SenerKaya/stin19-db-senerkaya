@@ -1,4 +1,5 @@
 # Task 12 Fahrrad Vermietung
+![Kurse](Bilder/fahrrad.jpg)  
 
 Die Fahrrad Müller GmbH vermietet Fahrrad an Kunden. Im Inventar haben Sie verschiedene Fahrradtypen wie Mountainbikes, Trekkingräder, Rennräder und E-Bikes.  
 Jede Vermietung wird erfasst und durch die Datenbank verwaltet. 
@@ -14,8 +15,7 @@ Es gibt Folgende Entitätsmengen:
 **Mietvertrag** (Abschlussdatum, Mietbeginn, Mietdauer)   
 **Fahrrad** (Kennung, Fahrradtyp)  
 
-[link zu sql Datei](Scripts/Task-09-Kursbesuche.sql)
 
-[link zu Task 09 Kursbesuche](stin19-db-senerkaya/Scripts/Task-09-Kursbesuche.sql)  
+
 
   
