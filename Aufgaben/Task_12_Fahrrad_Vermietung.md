@@ -26,12 +26,12 @@ Die Entitäten werden folgendermassen mit Primärschlüsseln ergänzt:
 **Fahrrad** (<ins>f-id</ins>)  
 
 ## Globale Normalisierung  
-### Ergänzung des ER-Diagramms mit den Kardinalitäten
+#### Ergänzung des ER-Diagramms mit den Kardinalitäten und ID-Schlüsseln
 ![erd5](/Bilder/erd-kardinalitaet.jpg) 
 
 ### Modellierungsfragen
-#### Ergänzung des ER-Diagramms mit der Entität Fahrradtyp
-![erd-fahrradtyp](/Bilder/erd-fahrradtyp.jpg) 
+#### Ergänzung des ER-Diagramms mit der Entität Fahrradtyp und Fremdschlüsseln
+![erd-fahrradtyp](/Bilder/erd-fahrradtyp2.jpg) 
 
 ## Erstellen der Relationen  
 **Kunde** (<ins>kunde-id</ins>, vorname, nachname )   
