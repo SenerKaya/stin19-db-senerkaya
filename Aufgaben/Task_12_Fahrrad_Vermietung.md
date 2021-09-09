@@ -16,10 +16,14 @@ Die Entitätstypen werden wie folgt durch die Attribute ergänzt.
 **Mietvertrag** (Abschlussdatum, Mietbeginn, Mietdauer)   
 **Fahrrad** (Kennung, Fahrradtyp)  
 
-## Entity Relationschip Diagramm
-
+## Entity Relationship Diagramm
 ![erd](/Bilder/fahrrad2.jpg) 
 
+## Definition von Identifikationsschlüsseln
+Die Entitäten werden folgendermassen mit Primärschlüssel ergänzt.
+**Kunde** (kunde_id)   
+**Mietvertrag** (mietvertrag_id)   
+**Fahrrad** (f_id, <ins>text</ins>)  
 
 
   
