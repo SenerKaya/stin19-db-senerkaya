@@ -14,7 +14,7 @@ Es gibt Folgende Entitätsmengen:
 **Mietvertrag** (Abschlussdatum, Mietbeginn, Mietdauer)   
 **Fahrrad** (Kennung, Fahrradtyp)  
 
-[link zu sql Datei](Script/Task-09-Kursbesuche.sql)
+[link zu sql Datei](Scripts/Task-09-Kursbesuche.sql)
 
      
 
