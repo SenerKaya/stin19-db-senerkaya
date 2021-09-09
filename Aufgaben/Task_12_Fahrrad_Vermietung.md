@@ -21,9 +21,9 @@ Die Entitätstypen werden wie folgt durch die Attribute ergänzt.
 
 ## Definition von Identifikationsschlüsseln
 Die Entitäten werden folgendermassen mit Primärschlüssel ergänzt.
-**Kunde** (kunde_id)   
-**Mietvertrag** (mietvertrag_id)   
-**Fahrrad** (f_id, <ins>text</ins>)  
+**Kunde** (<ins>kunde_id</ins> )   
+**Mietvertrag** (<ins>mietvertrag_id</ins>)   
+**Fahrrad** (<ins>f_id</ins>)  
 
 
   
