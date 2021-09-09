@@ -6,9 +6,10 @@ In diesem Readme sind die Datenbank Aufgaben mit entsprechenden verlinkungen vor
 Ein Unternehmen möchte eine Datenbankapplikation für die Ausbildungskontrolle der Angestellten entwickeln.  
 Es soll erfasst werden, welche Angestellten welche Kurse wann besucht haben und von wem sie ausgebildet wurden.  
 
-[link zur Aufgabe 09 Kursverwaltung](Aufgaben/Task_09_Kursverwaltung.md)  
+[Link zur Aufgabe 09 Kursverwaltung](Aufgaben/Task_09_Kursverwaltung.md)  
   
   
 ## Task 12 Fahrrad Vermietung
+Die Fahrrad Müller GmbH vermietet verschiedene Typen von Fahrrädern an Privatpersonen. 
 
-[Link zu Aufgabe 12 Fahrrad Vermietung](Aufgaben/Task_12_Fahrrad_Vermietung.md)  
+[Link zur Aufgabe 12 Fahrrad Vermietung](Aufgaben/Task_12_Fahrrad_Vermietung.md)  

@@ -5,17 +5,22 @@ Die Fahrrad Müller GmbH vermietet Fahrrad an Kunden. Im Inventar haben Sie versc
 Jede Vermietung wird erfasst und durch die Datenbank verwaltet. 
 
 ## Bildung von Entitätsmengen
-Es gibt Folgende Entitätsmengen:
+Es gibt folgende Entitätsmengen:
 - Fahrrad
 - Kunde/ Mieter
 - Mietvertrag  
   
 ## Festlegen der Beziehungen  
+Die Entitätstypen werden wie folgt durch die Attribute ergänzt.
 **Kunde** (Vorname, Nachname)   
 **Mietvertrag** (Abschlussdatum, Mietbeginn, Mietdauer)   
 **Fahrrad** (Kennung, Fahrradtyp)  
 
+## Entity Relationschip Diagramm
 
+![Bilder1](/Bilder/fahrrad.png) 
+![Bild2](/Bilder/fahrrad2.jpg) 
+![bild3](/Bilder/fahrrad3.png) 
 
 
   
