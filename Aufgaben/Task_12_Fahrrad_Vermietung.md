@@ -16,6 +16,6 @@ Es gibt Folgende Entitätsmengen:
 
 [link zu sql Datei](Scripts/Task-09-Kursbesuche.sql)
 
-     
+  
 
   
