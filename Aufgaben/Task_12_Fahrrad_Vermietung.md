@@ -20,7 +20,7 @@ Die Entitätstypen werden wie folgt durch die Attribute ergänzt.
 ![erd](/Bilder/fahrrad2.jpg) 
 
 ## Definition von Identifikationsschlüsseln
-Die Entitäten werden folgendermassen mit Primärschlüssel ergänzt.
+Die Entitäten werden folgendermassen mit Primärschlüssel ergänzt.  
 **Kunde** (<ins>kunde_id</ins> )   
 **Mietvertrag** (<ins>mietvertrag_id</ins>)   
 **Fahrrad** (<ins>f_id</ins>)  
