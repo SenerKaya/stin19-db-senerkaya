@@ -20,25 +20,25 @@ Die Entitätstypen werden wie folgt durch die Attribute ergänzt.
 ![erd3](/Bilder/erd-aufgabe3.jpg) 
 
 ## Definition von Identifikationsschlüsseln
-Die Entitäten werden folgendermassen mit Primärschlüsseln ergänzt.  
-**Kunde** (<ins>kunde_id</ins> )   
-**Mietvertrag** (<ins>mietvertrag_id</ins>)   
-**Fahrrad** (<ins>f_id</ins>)  
+Die Entitäten werden folgendermassen mit Primärschlüsseln ergänzt:    
+**Kunde** (<ins>kunde-id</ins> )   
+**Mietvertrag** (<ins>mietvertrag-id</ins>)   
+**Fahrrad** (<ins>f-id</ins>)  
 
 ## Globale Normalisierung  
 ### Ergänzung des ER-Diagramms mit den Kardinalitäten
-![erd5](/Bilder/erd-aufgabe5.jpg) 
+![erd5](/Bilder/erd-kardinalitaet.jpg) 
 
 ### Modellierungsfragen
 ### Ergänzung des ER-Diagramms mit der Entität Fahrradtyp
 ![erd-fahrradtyp](/Bilder/erd-fahrradtyp.jpg) 
 
 ## Erstellen der Relationen  
-**Kunde** (<ins>kunde_id</ins>, vorname, nachname )   
-**Mietvertrag** (<ins>mietvertrag_id</ins>, abschlussdatum, mietbeginn, mietdauer, kunde_id)  
+**Kunde** (<ins>kunde-id</ins>, vorname, nachname )   
+**Mietvertrag** (<ins>mietvertrag-id</ins>, abschlussdatum, mietbeginn, mietdauer, ↑kunde-id)  
 **Fahrradtyp** (<ins>ftyp_id</ins>, modell)     
-**Fahrrad** (<ins>f_id</ins>, ↑ftyp_id, kennung)  
-**Vermietete Fahrraeder** (↑ftyp_id, \↑mietvertrag_id)  
+**Fahrrad** (<ins>f_id</ins>, ↑ftyp-id, kennung)  
+**Vermietete Fahrraeder** (↑ftyp-id, ↑mietvertrag-id)  
 
 ##Lokal-Attribute
 
