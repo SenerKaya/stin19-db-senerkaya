@@ -30,17 +30,17 @@ Die Entitäten werden folgendermassen mit Primärschlüsseln ergänzt:
 ![erd5](/Bilder/erd-kardinalitaet.jpg) 
 
 ### Modellierungsfragen
-### Ergänzung des ER-Diagramms mit der Entität Fahrradtyp
+#### Ergänzung des ER-Diagramms mit der Entität Fahrradtyp
 ![erd-fahrradtyp](/Bilder/erd-fahrradtyp.jpg) 
 
 ## Erstellen der Relationen  
 **Kunde** (<ins>kunde-id</ins>, vorname, nachname )   
 **Mietvertrag** (<ins>mietvertrag-id</ins>, abschlussdatum, mietbeginn, mietdauer, ↑kunde-id)  
-**Fahrradtyp** (<ins>ftyp_id</ins>, modell)     
-**Fahrrad** (<ins>f_id</ins>, ↑ftyp-id, kennung)  
+**Fahrradtyp** (<ins>ftyp-id</ins>, modell)     
+**Fahrrad** (<ins>f-id</ins>, ↑ftyp-id, kennung)  
 **Vermietete Fahrraeder** (↑ftyp-id, ↑mietvertrag-id)  
 
-##Lokal-Attribute
+## Lokal-Attribute
 
 
 
