@@ -1,29 +1,48 @@
 # Task 12 Fahrrad Vermietung
 ![Kurse](/Bilder/fahrraeder2.jpg)  
 
-Die Fahrrad Müller GmbH vermietet Fahrrad an Kunden. Im Inventar haben Sie verschiedene Fahrradtypen wie Mountainbikes, Trekkingräder, Rennräder und E-Bikes.  
+Die Fahrrad MÃ¼ller GmbH vermietet Fahrrad an Kunden. Im Inventar haben Sie verschiedene Fahrradtypen wie Mountainbikes, TrekkingrÃ¤der, RennrÃ¤der und E-Bikes.  
 Jede Vermietung wird erfasst und durch die Datenbank verwaltet. 
 
-## Bildung von Entitätsmengen
-Es gibt folgende Entitätsmengen:
+## Bildung von EntitÃ¤tsmengen
+Es gibt folgende EntitÃ¤tsmengen:
 - Fahrrad
 - Kunde/ Mieter
 - Mietvertrag  
   
 ## Festlegen der Beziehungen  
-Die Entitätstypen werden wie folgt durch die Attribute ergänzt.
+Die EntitÃ¤tstypen werden wie folgt durch die Attribute ergÃ¤nzt.  
 **Kunde** (Vorname, Nachname)   
 **Mietvertrag** (Abschlussdatum, Mietbeginn, Mietdauer)   
 **Fahrrad** (Kennung, Fahrradtyp)  
 
 ## Entity Relationship Diagramm
-![erd](/Bilder/erd-aufgabe3.jpg) 
+![erd3](/Bilder/erd-aufgabe3.jpg) 
 
-## Definition von Identifikationsschlüsseln
-Die Entitäten werden folgendermassen mit Primärschlüsseln ergänzt.  
+## Definition von IdentifikationsschlÃ¼sseln
+Die EntitÃ¤ten werden folgendermassen mit PrimÃ¤rschlÃ¼sseln ergÃ¤nzt.  
 **Kunde** (<ins>kunde_id</ins> )   
 **Mietvertrag** (<ins>mietvertrag_id</ins>)   
 **Fahrrad** (<ins>f_id</ins>)  
+
+## Globale Normalisierung  
+### ErgÃ¤nzung des ER-Diagramms mit den KardinalitÃ¤ten
+![erd5](/Bilder/erd-aufgabe5.jpg) 
+
+### Modellierungsfragen
+### ErgÃ¤nzung des ER-Diagramms mit der EntitÃ¤t Fahrradtyp
+![erd-fahrradtyp](/Bilder/erd-fahrradtyp.jpg) 
+
+## Erstellen der Relationen  
+**Kunde** (<ins>kunde_id</ins>, vorname, nachname )   
+**Mietvertrag** (<ins>mietvertrag_id</ins>, abschlussdatum, mietbeginn, mietdauer, kunde_id)  
+**Fahrradtyp** (<ins>ftyp_id</ins>, modell)     
+**Fahrrad** (<ins>f_id</ins>, â†‘ftyp_id, kennung)  
+**Vermietete Fahrraeder** (â†‘ftyp_id, \â†‘mietvertrag_id)  
+
+##Lokal-Attribute
+
+
 
 
   
