@@ -47,7 +47,39 @@ Die Entitäten werden folgendermassen mit Primärschlüsseln ergänzt:
 | kunde-id      |    vorname    |     nachname  |
 | ------------- | ------------- | ------------- |
 | 1             | Max           | Meier         |
-| 2             | Steffen       | Keller        |
+| 2             | Steffen       | Keller        |  
+
+**Mietvertrag**
+| mietvertrag-id | abschlussdatum | mietbeginn | mietdauer| kunde-id |
+| -------------- | -------------- | ---------- |--------- | ---------|
+| 100            | 11.08.2021     | 12.08.2021 |   3      |     1    | 
+| 101            | 28.08.2021     | 29.08.2021 |   2      |     2    |  
+
+**Fahrradtyp**
+| ftyp-id       |    modell     |
+| ------------- | ------------- | 
+| 1             | Mountainbike  | 
+| 2             | Trekkingrad   |  
+
+**Fahrrad**
+| f-id      |    ftyp-id    |     kennung  |
+| ------------- | --------- | ------------ |
+| 500           | 1         | Mark#2       |
+| 501           | 2         | Cross#7      |  
+
+**Vermietete Fahrraeder**
+| ftyp-id       | mietvertrag-id  |
+| ------------- | --------------- | 
+| 1             | 100               | 
+| 2             | 100               |  
+
+
+
+
+
+
+
+
 
 
 
