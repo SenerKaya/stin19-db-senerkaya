@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="diag.erd">
+	<entities>
+		<data-source id="mysql8-17bbb55f10a-6af7172e1d477a2c">
+			<entity id="1" name="kunde" fq-name="ex16.kunde" order="0" x="340" y="248">
+				<path name="ex16"/>
+			</entity>
+			<entity id="2" name="mietvertrag" fq-name="ex16.mietvertrag" order="1" x="587" y="192">
+				<path name="ex16"/>
+			</entity>
+			<entity id="3" name="fahrrad" fq-name="ex16.fahrrad" order="2" x="1049" y="240">
+				<path name="ex16"/>
+			</entity>
+			<entity id="4" name="vermietete_fahrraeder" fq-name="ex16.vermietete_fahrraeder" order="3" x="852" y="489">
+				<path name="ex16"/>
+			</entity>
+			<entity id="5" name="fahrradtyp" fq-name="ex16.fahrradtyp" order="4" x="1270" y="194">
+				<path name="ex16"/>
+			</entity>
+		</data-source>
+	</entities>
+	<relations>
+		<relation name="mietvertrag_FK" fq-name="ex16.mietvertrag.mietvertrag_FK" type="fk" pk-ref="1" fk-ref="2"/>
+		<relation name="vermietete_fahrraeder_FK_1" fq-name="ex16.vermietete_fahrraeder.vermietete_fahrraeder_FK_1" type="fk" pk-ref="2" fk-ref="4"/>
+		<relation name="vermietete_fahrraeder_FK" fq-name="ex16.vermietete_fahrraeder.vermietete_fahrraeder_FK" type="fk" pk-ref="3" fk-ref="4"/>
+		<relation name="fahrrad_FK" fq-name="ex16.fahrrad.fahrrad_FK" type="fk" pk-ref="5" fk-ref="3"/>
+	</relations>
+</diagram>
