@@ -13,8 +13,9 @@ Die Entitätstypen werden wie folgt durch die Attribute ergänzt:
 **Kurse** (Kursbezeichnung, Themengebiet, Kursort)   
 **Kursleiter** (Status) 
 
-Die Beziehungen zwischen den drei Entitätsmengen sehen wie folgt aus.    
-Es gibt eine Rekursive Beziehung zwischen Personen und internen Kursleiter. 
+Die Beziehungen zwischen den drei Entitätsmengen sehen wie folgt aus.      
+Es gibt eine Rekursive Beziehung zwischen Personen und internen Kursleiter.  
+
 ![task09_erd1](/Bilder/Task09_erd_1.jpg) 
 
 
@@ -44,9 +45,9 @@ In diesem Schritt werden die Relationen mit Attributen, Primären- und Fremdschl
 **Kursbesuche** (<ins>↑pnr</ins>,<ins> ↑knr</ins>,<ins> ↑klnr</ins>, datum )  
 
 ## Konsistenzbedingungen
-In diesem Teil werden Bedingungen formuliert, die von den gespeicherten Daten eingehalten werden.  
-Dadurch können keine falsche Eingaben eingegeben werden und so wird die Datenkonsistenz sichergestellt.  
-Die Bedingungen werden auf der folgenden Tabelle definiert.
+Damit die Datenkonsistenz erhalten bleibt, müssen für die gespeicherten Daten Bedingungen gegeben werden.   
+Dadurch werden falsche Eingaben verhindert und unsere Datenbank wird weniger Fehler anfällig. 
+Die Bedingungen werden wie auf der folgenden Tabelle definiert.
 ![task09_konsistenz bedingungen](/Bilder/Task09_kons_bed.jpg) 
 
 ## View von allen Kursen
