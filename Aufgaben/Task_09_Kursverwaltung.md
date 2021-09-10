@@ -48,7 +48,7 @@ In diesem Schritt werden die Relationen mit Attributen, Primären- und Fremdschl
 Damit die Datenkonsistenz erhalten bleibt, müssen für die gespeicherten Daten Bedingungen gegeben werden.   
 Dadurch werden falsche Eingaben verhindert und unsere Datenbank wird weniger Fehler anfällig. 
 Die Bedingungen werden wie auf der folgenden Tabelle definiert.
-![task09_konsistenz bedingungen](/Bilder/Task09_kons_bed.jpg) 
+![task09_konsistenz bedingungen](/Bilder/task09_kons_bed.jpg) 
 
 ## View von allen Kursen
 ![task09_view](/Bilder/task09_view.jpg) 
