@@ -76,12 +76,13 @@ Die Entitäten werden folgendermassen mit Primärschlüsseln ergänzt:
 
 ## Erstellen der Datenbank mithilfe von DBeaver und Mysql
 
-Die SQL-Datei kann ist unter dem folgenden Link verfügbar 
+###Die SQL-Datei ist unter dem folgenden Link verfügbar 
+[Task 12 Fahrrad Vermietung SQL-Datei](/Scripts/Task-12-Fahrrad-Vermietung.sql)
 
 ### Das Er-Diagramm sieht folgendermassen aus.
 ![erd diagramm ](/Bilder/erd12.jpg) 
 
-### View Abfrage der Fahrrad Vermietungen
+### Erstellen der View Abfrage
 ![view12](/Bilder/view_12.jpg) 
 
 
