@@ -38,10 +38,16 @@ Die Entitäten werden folgendermassen mit Primärschlüsseln ergänzt:
 **Mietvertrag** (<ins>mietvertrag-id</ins>, abschlussdatum, mietbeginn, mietdauer, ↑kunde-id)  
 **Fahrradtyp** (<ins>ftyp-id</ins>, modell)     
 **Fahrrad** (<ins>f-id</ins>, ↑ftyp-id, kennung)  
-**Vermietete Fahrraeder** (↑ftyp-id, ↑mietvertrag-id)  
+**Vermietete Fahrraeder** (<ins>↑ftyp-id </ins>,<ins> ↑mietvertrag-id</ins>)  
 
 ## Lokal-Attribute
+**Definieren der Lokal-Attribute und erstellen der Tabellen mit Musterdaten:**  
 
+**Kunde**
+| kunde-id      |    vorname    |     nachname  |
+| ------------- | ------------- | ------------- |
+| 1             | Max           | Meier         |
+| 2             | Steffen       | Keller        |
 
 
 
