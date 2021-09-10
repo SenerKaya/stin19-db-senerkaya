@@ -13,3 +13,6 @@ Es soll erfasst werden, welche Angestellten welche Kurse wann besucht haben und 
 Die Fahrrad Müller GmbH vermietet verschiedene Typen von Fahrrädern an Privatpersonen. 
 
 [Link zur Aufgabe 12 Fahrrad Vermietung](Aufgaben/Task_12_Fahrrad_Vermietung.md)  
+  
+Die SQL-Datei ist unter dem folgenden Link verfügbar:    
+[Task 12 Fahrrad Vermietung SQL-Datei](/Scripts/Task-12-Fahrrad-Vermietung.sql)
