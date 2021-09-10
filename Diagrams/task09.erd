@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="task09.erd">
+	<entities>
+		<data-source id="mysql8-17bbb55f10a-6af7172e1d477a2c">
+			<entity id="1" name="funktionen" fq-name="ex15.funktionen" order="0" x="252" y="224">
+				<path name="ex15"/>
+			</entity>
+			<entity id="2" name="kursbesuche" fq-name="ex15.kursbesuche" order="1" x="543" y="317">
+				<path name="ex15"/>
+			</entity>
+			<entity id="3" name="kurse" fq-name="ex15.kurse" order="2" x="906" y="465">
+				<path name="ex15"/>
+			</entity>
+			<entity id="4" name="kurskontrolle" fq-name="ex15.kurskontrolle" order="3" x="561" y="67">
+				<path name="ex15"/>
+			</entity>
+			<entity id="5" name="personen" fq-name="ex15.personen" order="4" border-width="3" x="215" y="444">
+				<path name="ex15"/>
+			</entity>
+			<entity id="6" name="kursleiter" fq-name="ex15.kursleiter" order="5" x="596" y="571">
+				<path name="ex15"/>
+			</entity>
+			<entity id="7" name="kursthemen" fq-name="ex15.kursthemen" order="6" x="1003" y="245">
+				<path name="ex15"/>
+			</entity>
+		</data-source>
+	</entities>
+	<relations>
+		<relation name="kurskontrolle_FK_funktionen" fq-name="ex15.kurskontrolle.kurskontrolle_FK_funktionen" type="fk" pk-ref="1" fk-ref="4"/>
+		<relation name="personen_FK" fq-name="ex15.personen.personen_FK" type="fk" pk-ref="1" fk-ref="5"/>
+		<relation name="kursbesuche_FK_kurse" fq-name="ex15.kursbesuche.kursbesuche_FK_kurse" type="fk" pk-ref="3" fk-ref="2"/>
+		<relation name="kurskontrolle_FK_kurse" fq-name="ex15.kurskontrolle.kurskontrolle_FK_kurse" type="fk" pk-ref="3" fk-ref="4"/>
+		<relation name="kursbesuche_FK_person" fq-name="ex15.kursbesuche.kursbesuche_FK_person" type="fk" pk-ref="5" fk-ref="2"/>
+		<relation name="kursleiter_FK" fq-name="ex15.kursleiter.kursleiter_FK" type="fk" pk-ref="5" fk-ref="6"/>
+		<relation name="kursbesuche_FK_kursleiter" fq-name="ex15.kursbesuche.kursbesuche_FK_kursleiter" type="fk" pk-ref="6" fk-ref="2"/>
+		<relation name="kurse_FK" fq-name="ex15.kurse.kurse_FK" type="fk" pk-ref="7" fk-ref="3"/>
+	</relations>
+</diagram>
