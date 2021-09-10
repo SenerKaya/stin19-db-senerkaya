@@ -53,10 +53,13 @@ Die Bedingungen werden wie auf der folgenden Tabelle definiert.
 ![task09_konsistenz bedingungen](/Bilder/task09_kons_bed.jpg) 
 
 ## View von allen Kursen
+Erstellen von View in Dbeaver  
+
 ![task09_view](/Bilder/task09_view.jpg) 
 
 
 ## Entity Relation Diagramm 
+Erstellen von ER-Diagramm in Dbeaver  
 
 ![task09_erd](/Bilder/task09_erd.jpg) 
 
