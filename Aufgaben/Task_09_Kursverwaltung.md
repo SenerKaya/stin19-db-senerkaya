@@ -1,6 +1,5 @@
 # Aufgabe 09 Kursverwaltung  
 ![Kurse](/Bilder/kurse.png)  
-[Script Kursverwaltung.sql](/Scripts/Task-09-Kursbesuche.sql)
 
 ## Bildung von Entitätsmengen
 Es gibt folgende Entitätsmengen:
@@ -9,12 +8,12 @@ Es gibt folgende Entitätsmengen:
 - Externe Kursleiter  
 
 ## Festlegen der Beziehungen  
-Die Entitätstypen werden wie folgt durch die Attribute ergänzt.  
+Die Entitätstypen werden wie folgt durch die Attribute ergänzt:  
 **Personen** (Name, Vorname, Funktion, Lohnstufe)   
 **Kurse** (Kursbezeichnung, Themengebiet, Kursort)   
 **Kursleiter** (Status) 
 
-Die Beziehungen zwischen den drei Entitätsmengen sehen wie folgt aus.  
+Die Beziehungen zwischen den drei Entitätsmengen sehen wie folgt aus.    
 Es gibt eine Rekursive Beziehung zwischen Personen und internen Kursleiter. 
 ![task09_erd1](/Bilder/Task09_erd_1.jpg) 
 
@@ -30,11 +29,12 @@ Die netzwerkförmigen und rekursiven Beziehungen wie mc-mc, m-mc usw. müssen we
 Die Entität Kursleiter wird in "Interne Kursleiter" und "Externe Kursleiter" transformiert.  
 Das Attribut "Funktion" bekommt eine eigene Entitätsmenge, da es sehr wenige Werte gibt und diese einfacher mit der Tabelle Personen verbinden lässt. 
 Die Globale Normalisierung sieht nach der transformation der Relationen folgendermassen aus. 
-![task09_globale_norm.](/Bilder/Task09_globale_norm.jpg) 
+![task09_globale_norm.](/Bilder/task09_globale_norm.jpg) 
 
 
 ## Erstellen der Relationen 
-**Personen** (<ins>pnr</ins>, name, vorname,fnr,lohnstufe ) 
+In diesem Schritt werden die Relationen mit Attributen, Primären- und Fremdschlüsseln ergänzt.  
+**Personen** (<ins>pnr</ins>, name, vorname,fnr,lohnstufe)   
 **Funktionen** (<ins>fnr</ins>, funktion)   
 **Kurse** (<ins>knr</ins>, kursbezeichnung, ↑ktnr, kursort)  
 **Kursthemen** (<ins>ktnr</ins>, themengebiet)     
