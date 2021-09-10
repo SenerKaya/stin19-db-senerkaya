@@ -19,7 +19,6 @@ Values
 (5, 'Martin', 'Widmer');
 
 
-
 CREATE TABLE ex16.mietvertrag(
   `mietvertrag_id` INTEGER NOT NULL,
   `abschlussdatum` date DEFAULT NULL,
@@ -39,7 +38,6 @@ Values
 (104, '2021-09-10','2021-09-13',1,4);
 
 
-
 CREATE TABLE ex16.fahrradtyp(
   `ftyp_id` INTEGER NOT NULL,
   `modell` varchar(100) DEFAULT NULL,
@@ -54,7 +52,6 @@ Values
 (4, 'E-Bike'),
 (5, 'City-Bike'),
 (6, 'Crossbike');
-
 
 
 CREATE TABLE ex16.fahrrad(
@@ -72,7 +69,6 @@ Values
 (502,3, 'Renn#8'),
 (503,4, 'City#4'),
 (504,4, 'City#5');
-
 
 
 CREATE TABLE ex16.vermietete_fahrraeder(
