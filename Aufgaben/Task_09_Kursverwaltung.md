@@ -53,7 +53,7 @@ Die Bedingungen werden wie auf der folgenden Tabelle definiert.
 ![task09_konsistenz bedingungen](/Bilder/task09_kons_bed.jpg) 
 
 ## View von allen Kursen
-Erstellen von View in Dbeaver  
+Erstellen von einer View in Dbeaver  
 
 ![task09_view](/Bilder/task09_view.jpg) 
 
