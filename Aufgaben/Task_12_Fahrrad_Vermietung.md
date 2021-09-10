@@ -31,7 +31,7 @@ Die Entitäten werden folgendermassen mit Primärschlüsseln ergänzt:
 
 ### Modellierungsfragen
 #### Ergänzung des ER-Diagramms mit der Entität Fahrradtyp und Fremdschlüsseln
-![erd-fahrradtyp](/Bilder/erd-fahrradtyp2.jpg) 
+![erd-fahrradtyp](/Bilder/erd-fahrradtyp.jpg) 
 
 ## Erstellen der Relationen  
 **Kunde** (<ins>kunde-id</ins>, vorname, nachname )   
@@ -64,8 +64,8 @@ Die Entitäten werden folgendermassen mit Primärschlüsseln ergänzt:
 **Fahrrad**
 | f-id      |    ftyp-id    |     kennung  |
 | ------------- | --------- | ------------ |
-| 500           | 1         | Mark#2       |
-| 501           | 2         | Cross#7      |  
+| 500           | 1         | Cross#7       |
+| 501           | 2         | Mark#2      | 
 
 **Vermietete Fahrraeder**
 | ftyp-id       | mietvertrag-id  |
@@ -74,7 +74,15 @@ Die Entitäten werden folgendermassen mit Primärschlüsseln ergänzt:
 | 2             | 100               |  
 
 
+## Erstellen der Datenbank mithilfe von DBeaver und Mysql
 
+Die SQL-Datei kann ist unter dem folgenden Link verfügbar 
+
+### Das Er-Diagramm sieht folgendermassen aus.
+![erd diagramm ](/Bilder/erd12.jpg) 
+
+### View Abfrage der Fahrrad Vermietungen
+![view12](/Bilder/view_12.jpg) 
 
 
 

@@ -1,5 +1,5 @@
 # Abgabe der Aufgaben  
-In diesem Readme sind die Datenbank Aufgaben mit entsprechenden verlinkungen vorhanden.  
+In diesem Readme sind die Datenbank Aufgaben mit entsprechenden Verlinkungen vorhanden.  
 - Die Aufgaben 9,10,11,12 und 13 werden hier abgegeben.
 
 ## Aufgabe 09 Kursverwaltung  
