@@ -5,7 +5,6 @@ In diesem Readme sind die Datenbank Aufgaben mit entsprechenden Verlinkungen vor
 ## Task 09 Kursverwaltung  
 Ein Unternehmen möchte eine Datenbankapplikation für die Ausbildungskontrolle der Angestellten entwickeln.  
 Es soll erfasst werden, welche Angestellten welche Kurse wann besucht haben und von wem sie ausgebildet wurden.  
-
 [Link zur Task 09 Kursverwaltung](Aufgaben/Task_09_Kursverwaltung.md) 
 
 Die SQL-Datei ist unter dem folgenden Link verfügbar:  
@@ -25,7 +24,6 @@ Die Ergebnisse habe ich hier verlinkt und die gewünschten Dateien in diese Repos
 
 ## Task 12 Fahrrad Vermietung
 Die Fahrrad Müller GmbH vermietet verschiedene Typen von Fahrrädern an Privatpersonen. 
-
 [Link zur Aufgabe 12 Fahrrad Vermietung](Aufgaben/Task_12_Fahrrad_Vermietung.md)  
   
 Die SQL-Datei ist unter dem folgenden Link verfügbar:    
