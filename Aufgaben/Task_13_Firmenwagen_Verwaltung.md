@@ -20,6 +20,6 @@ Die Entitätstypen werden wie folgt durch die Attribute ergänzt.
 **Fahrzeuge** (Kennzeichen, Anschaffungsdatum, Anschaffungskosten, Fahrzeugmodell)   
 **Reservierung** (Beginn, Ende, Zweck)  
 
-#### Entity Relationship Diagramm
+### Entity Relationship Diagramm
 Mit unseren Entitätsmengen lässt sich folgendes Entitätenblockdiagramm zeichnen:  
 ![task13-erd1](/Bilder/task13_erd1.jpg) 

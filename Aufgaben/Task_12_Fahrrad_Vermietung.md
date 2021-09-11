@@ -16,7 +16,7 @@ Die Entitätstypen werden wie folgt durch die Attribute ergänzt.
 **Mietvertrag** (Abschlussdatum, Mietbeginn, Mietdauer)   
 **Fahrrad** (Kennung, Fahrradtyp)  
 
-#### Entity Relationship Diagramm  
+### Entity Relationship Diagramm  
 Mit unseren Entitätsmengen lässt sich folgendes Entitätenblockdiagramm zeichnen:    
 ![erd3](/Bilder/erd-aufgabe3.jpg) 
 
