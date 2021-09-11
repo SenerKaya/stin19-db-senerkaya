@@ -1,5 +1,5 @@
 # SQL Abgabe der Aufgaben  
-In diesem Readme sind die Datenbank Aufgaben mit entsprechenden Verlinkungen vorhanden.  
+In diesem Readme sind die Datenbank Aufgaben mit entsprechenden Verlinkungen vorhanden.
 - Unten werden die  Aufgaben 09,10,11,12 und 13 abgegeben.
 
 ## Task 09 Kursverwaltung  
