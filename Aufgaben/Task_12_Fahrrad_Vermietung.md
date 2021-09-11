@@ -6,9 +6,9 @@ Jede Vermietung wird erfasst und durch die Datenbank verwaltet.
 
 ## Bildung von Entitätsmengen
 Es gibt folgende Entitätsmengen:
-- Fahrrad
-- Kunde/ Mieter
-- Mietvertrag  
+- **Fahrrad**  
+- **Kunde**  
+- **Mietvertrag**    
   
 ## Festlegen der Beziehungen  
 Die Entitätstypen werden wie folgt durch die Attribute ergänzt.  
@@ -16,7 +16,7 @@ Die Entitätstypen werden wie folgt durch die Attribute ergänzt.
 **Mietvertrag** (Abschlussdatum, Mietbeginn, Mietdauer)   
 **Fahrrad** (Kennung, Fahrradtyp)  
 
-## Entity Relationship Diagramm  
+#### Entity Relationship Diagramm  
 Mit unseren Entitätsmengen lässt sich folgendes Entitätenblockdiagramm zeichnen:    
 ![erd3](/Bilder/erd-aufgabe3.jpg) 
 
