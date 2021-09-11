@@ -1,6 +1,6 @@
 # SQL Abgabe der Aufgaben  
-In diesem Readme sind die Datenbank Aufgaben mit entsprechenden Verlinkungen vorhanden.
-- Unten werden die  Aufgaben 09,10,11,12 und 13 abgegeben.
+In diesem Readme sind alle Datenbank Aufgaben mit entsprechenden Verlinkungen vorhanden.  
+Die Aufgaben 09, 10, 11, 12 und 13 werden hier abgegeben.
 
 ## Task 09 Kursverwaltung  
 Ein Unternehmen möchte eine Datenbankapplikation für die Ausbildungskontrolle der Angestellten entwickeln.  
@@ -23,10 +23,16 @@ Die Ergebnisse habe ich hier verlinkt und die gewünschten Dateien in diese Repos
 
 
 ## Task 12 Fahrrad Vermietung
-Die Fahrrad Müller GmbH vermietet verschiedene Typen von Fahrrädern an Privatpersonen. 
+Die Fahrrad Müller GmbH vermietet verschiedene Typen von Fahrrädern an Privatpersonen.     
 [Link zur Aufgabe 12 Fahrrad Vermietung](Aufgaben/Task_12_Fahrrad_Vermietung.md)  
   
 Die SQL-Datei ist unter dem folgenden Link verfügbar:    
 [Task 12 Fahrrad Vermietung SQL-Datei](/Scripts/Task-12-Fahrrad-Vermietung.sql)
 
 ## Task 13 Fuhrpark Verwaltung
+
+Die Firma Atlanta GmbH hat einen Fuhrpark von Firmenwägen, die von Mitarbeitern für berufliche Zwecke genutzt werden können.  
+Die Verwaltung des Fuhrparks soll digitalisiert und eine Datenbank erstellt werden.   
+[Link zur Aufgabe 13 Firmenwagen verwalten](/Aufgaben/Task_13_Firmenwagen_Verwaltung.md)   
+
+
