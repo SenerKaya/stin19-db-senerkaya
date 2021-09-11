@@ -1,5 +1,5 @@
 # Task 13 Fuhrpark Verwaltung  
-![Kurse](/Bilder/Fuhrpark.jpg)  
+![tast13_fuhrpark](/Bilder/fuhrpark.jpg)  
 
 Es soll eine Datenbank für Firmenwagen Vermietung erstellt werden.  
 In der Fuhrpark Verwaltung gibt es folgende Aufgaben.
