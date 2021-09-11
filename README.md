@@ -11,7 +11,7 @@ Die SQL-Datei ist unter dem folgenden Link verfügbar:
 [SQL-Datei Kursverwaltung.sql](/Scripts/Task-09-Kursbesuche.sql) 
 
 ## Task 10 Git-Praktikum  
-In diesem Praktikum haben wir Git installiert, eingerichtet mit Branches gearbeitet, Github Konto und ein Repository erstellt.  
+In diesem Praktikum haben wir Git installiert, eingerichtet mit Branches gearbeitet sowie ein Github Konto und ein Repository erstellt.  
 Ich habe durch dieses Praktikum hier in Github ein edu-git Repository erstellt. Link [hier.](https://github.com/SenerKaya/edu-git)   
 Das Git/Github-Praktikum habe ich Schritt für Schritt durchgeführt und zum Glück hat auch alles geklappt. 
 
@@ -32,7 +32,7 @@ Die SQL-Datei ist unter dem folgenden Link verfügbar:
 ## Task 13 Fuhrpark Verwaltung
 
 Die Firma Atlanta GmbH hat einen Fuhrpark von Firmenwägen, die von Mitarbeitern für berufliche Zwecke genutzt werden können.  
-Die Verwaltung des Fuhrparks soll digitalisiert und eine Datenbank erstellt werden.   
+Die Verwaltung des Fuhrparks soll mithilfe eines Datenbanksoftwares digitalisiert werden.   
 [Link zur Aufgabe 13 Firmenwagen verwalten](/Aufgaben/Task_13_Firmenwagen_Verwaltung.md)   
 
 
