@@ -11,7 +11,7 @@ USE `ex15`;
 
 CREATE TABLE ex15.funktionen(
   `fnr` INTEGER NOT NULL,
-  `funktion` varchar(100) DEFAULT NULL,
+  `funktion` varchar(100) NOT NULL,
   CONSTRAINT funktionen_fk PRIMARY KEY (fnr)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 collate=utf8mb4_unicode_ci;
 
@@ -26,8 +26,8 @@ VALUES
 
 CREATE TABLE ex15.personen(
   `pnr`       INTEGER NOT NULL    check(pnr between 100000 and 999999),
-  `name`      varchar(20) DEFAULT NULL,
-  `vorname`   varchar(15) DEFAULT NULL,
+  `name`      varchar(20)  NOT NULL,
+  `vorname`   varchar(15)  NOT NULL,
   `fnr`       INTEGER NOT NULL,
   `lohnstufe` INTEGER  DEFAULT null   check(lohnstufe between 1 and 9),
   CONSTRAINT personen_pk PRIMARY KEY (pnr),
@@ -51,7 +51,7 @@ VALUES
 
 CREATE TABLE ex15.kursthemen(
   `tnr` INTEGER NOT NULL,
-  `themengebiet` varchar(100) DEFAULT null,
+  `themengebiet` varchar(100)  NOT NULL,
   CONSTRAINT kursthemen_pk PRIMARY KEY (tnr)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 collate=utf8mb4_unicode_ci;
 
@@ -66,9 +66,9 @@ INSERT INTO ex15.kursthemen(tnr,themengebiet) VALUES
 
 CREATE TABLE ex15.kurse(
   `knr` INTEGER NOT NULL,
-  `kursbezeichnung` varchar(100) DEFAULT NULL,
-  `kursort` varchar(100) DEFAULT NULL,
-  `tnr` INTEGER   DEFAULT null,
+  `kursbezeichnung` varchar(100)  NOT NULL,
+  `kursort` varchar(100)  NOT NULL,
+  `tnr` INTEGER   NOT NULL,
   CONSTRAINT kurse_pk PRIMARY KEY (knr),
   CONSTRAINT kurse_FK FOREIGN KEY (tnr) REFERENCES ex15.kursthemen(tnr)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 collate=utf8mb4_unicode_ci;
@@ -90,12 +90,12 @@ INSERT INTO ex15.kurse(knr,kursbezeichnung ,kursort,tnr) VALUES
 
 CREATE TABLE ex15.kursleiter(
   `klnr`    INTEGER NOT NULL,
-  `s` 	    varchar(1) DEFAULT null ,
-  `pnr`     INTEGER DEFAULT NULL,
-  `name`    varchar(20) DEFAULT NULL,
+  `s` 	    varchar(1)  NOT NULL,
+  `pnr`     INTEGER  DEFAULT NULL,
+  `name`    varchar(20)  NOT NULL,
   `vorname` varchar(15) DEFAULT NULL,
-  `firma`   varchar(100) DEFAULT NULL,
-  `KErf`    INTEGER DEFAULT null,
+  `firma`   varchar(100)   DEFAULT NULL,
+  `KErf`    INTEGER  DEFAULT NULL,
   CONSTRAINT kursleiter_pk PRIMARY KEY (klnr),
   CONSTRAINT kursleiter_FK FOREIGN KEY (pnr) REFERENCES ex15.personen(pnr)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 collate=utf8mb4_unicode_ci;
