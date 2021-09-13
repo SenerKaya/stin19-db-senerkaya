@@ -23,3 +23,5 @@ Die Entitätstypen werden wie folgt durch die Attribute ergänzt.
 ### Entity Relationship Diagramm
 Mit unseren Entitätsmengen lässt sich folgendes Entitätenblockdiagramm zeichnen:  
 ![task13-erd1](/Bilder/task13_erd1.jpg) 
+
+
