@@ -20,12 +20,13 @@ Das Git/Github-Praktikum habe ich Schritt für Schritt durchgeführt und zum Glück
 ## Task 11 Docker-Praktikum   
 Im Docker-Praktikum haben wir Schritt für Schritt Docker installiert und ganze Anleitung durchgeführt.    
 Wir haben das Whalesay-Image heruntergeladen, ausgeführt und mithilfe von Dockerfiles ein eigenes Image erstellt und wieder in die Dockerhub Website hochgeladen.  
-Die Ergebnisse habe ich hier verlinkt.
+Die Ergebnisse habe ich hier verlinkt.  
 [Dockerfile Datei befindet sich hier.](/Aufgaben/Docker_Files)        
-Und der Link zur Dockerhub repository in dem auch das Image hochgeladen ist hier [Link zu Dockerhub Webseite.](https://hub.docker.com/repository/docker/sener271/docker-whale)      
+Und der Link zur Dockerhub repository in dem auch das Image hochgeladen ist hier.  
+[Link zu Dockerhub Webseite.](https://hub.docker.com/repository/docker/sener271/docker-whale)      
 
 Danach haben wir mit Docker-Compose YAML-Dateien erstellt und mit Wordpress verbunden.   
-[Hier](/Aufgaben/Docker_Files/YAML-Dateien) sind die docker-compose.yml  und docker-compose-mysql8.yml Dateien. 
+[Die YAML-Dateien befinden sich hier](/Aufgaben/Docker_Files/YAML-Dateien).
 
 
 ## Task 12 Fahrrad Vermietung
