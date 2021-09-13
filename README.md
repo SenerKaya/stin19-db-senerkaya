@@ -12,7 +12,7 @@ Die SQL-Datei ist unter dem folgenden Link verfügbar:
 
 ## Task 10 Git-Praktikum  
 In diesem Praktikum haben wir Git installiert, eingerichtet mit Branches gearbeitet sowie ein Github Konto und ein Repository erstellt.  
-Ich habe durch dieses Praktikum hier in Github ein edu-git Repository erstellt. Der Link zu edu-git Repository ist unten.  
+Ich habe in Git-Praktikum auf der Github Webseite ein edu-git Repository erstellt. Der Link ist unten.  
 [Link zu edu-git Repository](https://github.com/SenerKaya/edu-git).  
 Das Git/Github-Praktikum habe ich Schritt für Schritt durchgeführt und zum Glück hat auch alles geklappt. 
 
