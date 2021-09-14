@@ -37,12 +37,12 @@ Ergänzung des ER-Diagramms mit den Kardinalitäten und ID-Schlüsseln
 ### Modellierungsfragen
 ### Erstellen von weiteren Relationen mit Fremdschlüsseln  
 **Mitarbeiter** (<ins>mitarbeiter-id</ins>, Vorname, Nachname, Pers_nr. )   
-**Reservierung** (<ins>reservierung-id</ins>,Beginn, Ende, Zweck)  
-**Fahrzeuge** (<ins>fahrzeug-id</ins>, Kennzeichen, Anschaffungsdatum, Anschaffungskosten, ↑fahrzeugmodell_id)     
+**Reservierung** (<ins>reservierung-id</ins>,Beginn, Ende, Zweck, ↑mitarbeiter_id, ↑fahrzeugmodell_id)  
+**Fahrzeuge** (<ins>fahrzeug_id</ins>, Kennzeichen, Anschaffungsdatum, Anschaffungskosten, ↑fahrzeugmodell_id)     
 **Fahrzeugmodell** (<ins>fahrzeugmodell-id</ins>, bezeichnung, hersteller, kraftstoff, verbrauch)  
-**Instandhaltung** (<ins>instandhaltung-id</ins>, datum, km_stand, kosten, beschreibung)  
-**Versicherung** (<ins>versicherungs_nr</ins>, kasko, jährliche_beitrag) 
-**Versicherungsgesellschaft**(<ins>vg-id</ins>, firma, strasse, plz, ort, telefonNr) 
+**Instandhaltung** (<ins>instandhaltung-id</ins>, datum, km_stand, kosten, beschreibung, ↑fahrzeug_id)  
+**Versicherungsantrag** (<ins>versicherungs_nr</ins>, kasko, jaehrliche_beitrag, ↑vg-id) 
+**Versicherungsgesellschaft**(<ins>vg-id</ins>, firma, strasse, plz, ort, telefon) 
  
 #### Ergänzung des ER-Diagramms mit weiteren Entitäten und Fremdschlüsseln
 
@@ -51,7 +51,8 @@ Ergänzung des ER-Diagramms mit den Kardinalitäten und ID-Schlüsseln
 
 
 ## Erstellen der Datenbank mithilfe von DBeaver und Mysql
-
+### Die SQL-Datei ist unter dem folgenden Link verfügbar:    
+[Task 12 Fahrrad Vermietung SQL-Datei](/Scripts/Task-12-Fahrrad-Vermietung.sql)
 
 ## Views
 
