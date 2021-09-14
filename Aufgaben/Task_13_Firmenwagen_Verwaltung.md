@@ -41,7 +41,7 @@ Ergänzung des ER-Diagramms mit den Kardinalitäten und ID-Schlüsseln
 **Fahrzeuge** (<ins>fahrzeug_id</ins>, Kennzeichen, Anschaffungsdatum, Anschaffungskosten, ↑fahrzeugmodell_id)     
 **Fahrzeugmodell** (<ins>fahrzeugmodell-id</ins>, bezeichnung, hersteller, kraftstoff, verbrauch)  
 **Instandhaltung** (<ins>instandhaltung-id</ins>, datum, km_stand, kosten, beschreibung, ↑fahrzeug_id)  
-**Versicherungsantrag** (<ins>versicherungs_nr</ins>, kasko, jaehrliche_beitrag, ↑vg-id) 
+**Versicherungsantrag** (<ins>versicherungs_nr</ins>, kasko, jaehrliche_beitrag, ↑vg-id)    
 **Versicherungsgesellschaft**(<ins>vg-id</ins>, firma, strasse, plz, ort, telefon) 
  
 #### Ergänzung des ER-Diagramms mit weiteren Entitäten und Fremdschlüsseln
@@ -55,12 +55,14 @@ Ergänzung des ER-Diagramms mit den Kardinalitäten und ID-Schlüsseln
 [Task 13 Fuhrwerk SQL-Datei](/Scripts/Task-13-Fuhrwerk.sql)
 
 ## Views
-Reservierungsview
+**Reservierungsview**
 ![task13_reservierungsview ](/Bilder/task13_erd_reservierungview.jpg)  
  
-instandshaltungsview
+ 
+**Instandshaltungsview**
 ![task13_reservierungsview ](/Bilder/task13_erd_instandhaltungsview.jpg) 
 
-versicherungsantragsview
+
+**Versicherungsantragsview**
 ![task13_versicherungsview ](/Bilder/task13_erd_versicherungview.jpg) 
 
