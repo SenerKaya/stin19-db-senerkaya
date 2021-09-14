@@ -31,7 +31,7 @@ Die Entitäten werden folgendermassen mit Primärschlüsseln ergänzt:
 ![erd5](/Bilder/erd-kardinalitaet.jpg) 
 
 ### Modellierungsfragen
-#### Ergänzung des ER-Diagramms mit der Entität Fahrradtyp und Fremdschlüsseln
+Ergänzung des ER-Diagramms mit der Entität Fahrradtyp und Fremdschlüsseln
 ![erd-fahrradtyp](/Bilder/erd-fahrradtyp.jpg) 
 
 ## Erstellen der Relationen  
