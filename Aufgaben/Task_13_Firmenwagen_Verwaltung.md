@@ -26,22 +26,33 @@ Mit unseren Entitätsmengen lässt sich folgendes Entitätenblockdiagramm zeichn
 
 ## Definition von Identifikationsschlüsseln
 Die Entitäten werden folgendermassen mit Primärschlüsseln ergänzt:    
-**Mitarbeiter** (<ins>m-id</ins> )   
-**Fahrzeuge** (<ins>f-id</ins>)   
-**Reservierung** (<ins>r-id</ins>)
+**Mitarbeiter** (<ins>mitarbeiter-id</ins> )   
+**Fahrzeuge** (<ins>fahrzeug-id</ins>)   
+**Reservierung** (<ins>reservierung-id</ins>)
 
 ## Globale Normalisierung  
 Ergänzung des ER-Diagramms mit den Kardinalitäten und ID-Schlüsseln
 ![erd5](/Bilder/task13_erd2.jpg) 
 
 ### Modellierungsfragen
-### Erstellen der Relationen mit Fahrzeugmodell und Fremdschlüsseln  
+### Erstellen von weiteren Relationen mit Fremdschlüsseln  
 **Mitarbeiter** (<ins>mitarbeiter-id</ins>, Vorname, Nachname, Pers_nr. )   
 **Reservierung** (<ins>reservierung-id</ins>,Beginn, Ende, Zweck)  
-**Fahrzeuge** (<ins>ftyp-id</ins>, Kennzeichen, Anschaffungsdatum, Anschaffungskosten, ↑fahrzeugmodell_id)     
-**Fahrzeugmodell** (<ins>fahrzeugmodell-id</ins>, bezeichnung, kraftstoff, hersteller, verbrauch)  
+**Fahrzeuge** (<ins>fahrzeug-id</ins>, Kennzeichen, Anschaffungsdatum, Anschaffungskosten, ↑fahrzeugmodell_id)     
+**Fahrzeugmodell** (<ins>fahrzeugmodell-id</ins>, bezeichnung, hersteller, kraftstoff, verbrauch)  
+**Instandhaltung** (<ins>instandhaltung-id</ins>, datum, km_stand, kosten, beschreibung)  
+**Versicherung** (<ins>versicherungs_nr</ins>, kasko, jährliche_beitrag) 
+**Versicherungsgesellschaft**(<ins>vg-id</ins>, firma, strasse, plz, ort, telefonNr) 
  
-#### Ergänzung des ER-Diagramms mit der Entität Fahrzeugmodell und Fremdschlüsseln
+#### Ergänzung des ER-Diagramms mit weiteren Entitäten und Fremdschlüsseln
 
+![task13_erd diagramm ](/Bilder/task13_erd3.jpg) 
+
+
+
+## Erstellen der Datenbank mithilfe von DBeaver und Mysql
+
+
+## Views
 
 
